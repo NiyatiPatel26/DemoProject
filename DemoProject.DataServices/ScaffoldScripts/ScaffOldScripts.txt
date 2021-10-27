@@ -1,0 +1,2 @@
+﻿// to generrate new entity files if any changes in database
+Scaffold-DbContext "Server=EC2AMAZ-HTK07IA;Database=Demo;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityData/EntityModels -ContextDir EntityData -f
